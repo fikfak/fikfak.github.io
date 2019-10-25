@@ -16,5 +16,5 @@ coba https://stackoverflow.com/questions/26275645/how-to-support-latex-in-github
  $$\LaTeX code$$   (for display)
 \\[\LaTeX code\\] (also for display)
 \\(\LaTeX code\\) (for inline)
-  $$h_\theta(x) = \Large\frac{1}{1 + \mathcal{e}^{(-\theta^\top x)}}$$   (for display)
+  $$H(Z) = \Large\frac{1}{1 + z^-1}$$   (for display)
 </body>
