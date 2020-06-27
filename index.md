@@ -43,6 +43,15 @@
   </div>
 </nav>
 
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="/github-pages-with-jekyll{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+
 <p>Untuk clone seperti ini:
 git clone https://github.com/fikfak/fikfak.github.io.git</p>
 <p>Nambahi bootstrap dari [1], , link dari [2]</p>
