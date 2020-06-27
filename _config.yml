@@ -2,3 +2,10 @@ theme: jekyll-theme-cayman
 markdown: kramdown
 kramdown:
     math_engine: katex
+defaults:
+ -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
